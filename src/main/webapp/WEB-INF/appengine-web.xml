@@ -3,6 +3,6 @@
 	<application>idealtransformation-1006</application>
 	<version>4</version>
 	<threadsafe>true</threadsafe>
-	<warmup-requests-enabled>true</warmup-requests-enabled>s
+	<warmup-requests-enabled>true</warmup-requests-enabled>
 	<sessions-enabled>false</sessions-enabled>
 </appengine-web-app>
