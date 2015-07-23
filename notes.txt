@@ -4,3 +4,5 @@ Google API Key: AIzaSyChtWPYR9_BzD1QlLDHkV5gD-USwt9w3mw
 
 TODO: carousel pics
 TODO: nav active 
+
+need to clean up the contact line

@@ -59,7 +59,7 @@
 			<version>1.7.5</version>
 		</dependency>
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -93,7 +93,7 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>1.9.23</version>
 			</plugin>
-
+<!-- 
 			<plugin>
 				<groupId>org.lesscss</groupId>
 				<artifactId>lesscss-maven-plugin</artifactId>
@@ -112,6 +112,7 @@
 					<outputDirectory>${basedir}/src/main/webapp/resources/css/</outputDirectory>
 				</configuration>
 			</plugin>
+			-->
 		</plugins>
 	</build>
 </project>

@@ -1,0 +1,24 @@
+
+#about .contact-info {
+	text-align: center;
+}
+#about .phone, #about .fax, #about .email {
+	display: block;
+}
+#about .address {
+	line-height: 100%;
+	
+}
+#about .social-icons img {
+	height: 2em;
+}
+
+#staff .media-left IMG {
+  width: 140px;
+}
+
+
+.thumbnail img {
+	width: 100%;
+	
+}

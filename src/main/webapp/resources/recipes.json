@@ -1,0 +1,66 @@
+[
+	{
+		"title": "Roasted Asparagus",
+		"image": "brussel_sprouts.jpg",
+		"ingredients": [
+			"1 pound asparagus",
+			"2 tsp olive oil",
+			"salt and pepper to taste",
+			"lemon juice" ],
+		"instructions": [
+			"preheat oven to broil",
+			"trim ends of asparagus and toss with olive oil, salt, pepper",
+			"place in a glass roasting dish and roast until tender but still firm when poked with the tip of a knife, about 7-10 minutes",
+			"remove from oven and transfer to serving platter. squeeze fresh lemon juice on top"
+		]
+	},
+	{
+		"title": "Caramelized Brussel Sprouts",
+		"image": "brussel_sprouts.jpg",
+		"ingredients": [
+			"2 cups fresh brussel sprouts",
+			"1 tsp Splenda",
+			"2 Tbsp Walden Farms Pancake Syrup",
+			"1 Tbsp olive oil",
+			"2 Tbsp vinegar",
+			"1/4 cup water",
+			"pinch of sea salt"
+		],
+		"instructions": [
+			"trim stem ends of brussel sprouts",
+			"in a skillet, heat the Splenda over medium heat until it begins to melt, shaking pan occasionally to heat Splenda evenly. Once Splenda starts to melt, reduce heat and cook until brown",
+			"add olive oil, stir. add vinegar and pancake syrup. cook and stir for 1 minute",
+			"carefully add the water and salt. bring to a boil, add brussel sprouts. return to boiling and reduce heat. cover and simmer for 6 minutes.",
+			"uncover and cook about 15 more minutes or until most of the liquid has been absorbed and the sprouts are coated with a golden glaze, gently stirring occasionally"
+		]
+	},
+	{
+		"title": "Cauliflower Mashed Potatoes",
+		"image": "brussel_sprouts.jpg",
+		"ingredients": [
+			"1 head cauliflower",
+			"onion and garlic powder",
+			"sea salt",
+			"*optional: 1 packet IP leek, broccoli and cheese, chicken, or mushroom soup"
+		],
+		"instructions": [
+			"steam or boil cauliflower until very soft",
+			"drain water",
+			"add seasonings to taste and soup packet if desired",
+			"mash all together!"
+		]
+	},
+	{
+		"title": "Cauliflower Rice",
+		"ingredients": [
+			"1 head cauliflower"
+		],
+		"instructions": [
+			"using a food processor or blender, chop raw cauliflower until it is the size of rice",
+			"microwave in a covered dish for about 6 minutes",
+			"no need to add water! cauliflower absorbs water like crazy, and adding water will make it gummy",
+			"add the rice to a stir fry"
+		]
+	}
+]
+
