@@ -2,3 +2,4 @@
 07/17/2015 - 1.75 hours - Basic Layout
 07/08/2015 - 1.5 hours - More layout, started on recipes
 07/22/2013 - 1 hour - contact us, embedded map, embedded calendar, recipe work
+07/24/2015 - 1 hour - recipe work, main navbar

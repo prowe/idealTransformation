@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Roasted Asparagus",
-		"image": "brussel_sprouts.jpg",
+		"image": "roasted_asparagus.jpg",
 		"ingredients": [
 			"1 pound asparagus",
 			"2 tsp olive oil",
@@ -36,7 +36,7 @@
 	},
 	{
 		"title": "Cauliflower Mashed Potatoes",
-		"image": "brussel_sprouts.jpg",
+		"image": "cauliflower.jpg",
 		"ingredients": [
 			"1 head cauliflower",
 			"onion and garlic powder",
@@ -52,6 +52,7 @@
 	},
 	{
 		"title": "Cauliflower Rice",
+		"image": "cauliflower.jpg",
 		"ingredients": [
 			"1 head cauliflower"
 		],
@@ -60,6 +61,37 @@
 			"microwave in a covered dish for about 6 minutes",
 			"no need to add water! cauliflower absorbs water like crazy, and adding water will make it gummy",
 			"add the rice to a stir fry"
+		]
+	},
+	{
+		"title": "Celery Root and Cauliflower Puree",
+		"image": "cauliflower.jpg",
+		"ingredients": [
+			"1 medium celery root, peeled and cut into 1/2 inch cubes",
+			"1 small head or half a large head of cauliflower, cut into small florets",
+			"1/2 tsp salt",
+			"3-4 cloves garlic",
+			"1 Tbsp butter or olive oil"
+		],
+		"instructions": [
+			"steam cauliflower and celery root until tender (about 15 minutes)",
+			"transfer vegetables to a bowl or food processor, add butter or oil, garlic, and salt and mix until smooth",
+			"season with additional salt and pepper as needed"
+		]
+	},
+	{
+		"title": "Roasted Curried Whole Cauliflower",
+		"image": "roasted_curried_whole_cauliflower.jpg",
+		"ingredients": [
+			"1 head cauliflower",
+			"2 Tbsp curry powder",
+			"3 1/2 Tbsp olive oil",
+			"1/2 tsp salt"
+		],
+		"instructions": [
+			"Preheat oven to 350F. Line a baking sheet with parchment paper. Wash cauliflower and trim greens from stem side.",
+			"Use a knife to cut around base, removing center core, but leaving the florets intact. Place on prepared pan.",
+			"In a small bowl, whisk together olive oil, curry, and slat until blended. Brush mixture onto cauliflower so that it is evenly distributed."
 		]
 	}
 ]

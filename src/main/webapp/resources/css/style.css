@@ -1,4 +1,9 @@
 
+body {
+	position: relative;
+	padding-top: 70px;
+}
+
 #about .contact-info {
 	text-align: center;
 }
@@ -17,8 +22,6 @@
   width: 140px;
 }
 
-
-.thumbnail img {
+.recipe img {
 	width: 100%;
-	
 }
