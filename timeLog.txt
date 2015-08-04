@@ -3,3 +3,4 @@
 07/08/2015 - 1.5 hours - More layout, started on recipes
 07/22/2013 - 1 hour - contact us, embedded map, embedded calendar, recipe work
 07/24/2015 - 1 hour - recipe work, main navbar
+07/30/2015 - 1.5 hours -recipes, scroll spy fighting

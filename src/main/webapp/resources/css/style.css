@@ -1,7 +1,5 @@
 
-body {
-	position: relative;
-	padding-top: 70px;
+h2 {
 }
 
 #about .contact-info {
@@ -24,4 +22,12 @@ body {
 
 .recipe img {
 	width: 100%;
+	cursor: pointer;
+}
+
+#recipeModal .recipe-modal-img-container {
+	text-align: center;
+}
+#recipeModal .recipe-modal-img-container img {
+	max-width: 100%;
 }

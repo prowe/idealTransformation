@@ -14,11 +14,14 @@
 					aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
-				<h4 class="modal-title"></h4>
+				<h3 class="modal-title"></h3>
 			</div>
 			<div class="modal-body">
 				<div class="row">
 					<div class="col-md-6">
+						<div class="recipe-modal-img-container">
+							<img class="modal-recipe-image" />
+						</div>
 						<h4>Ingredients</h4>
 						<ul class="ingredients"></ul>
 					</div>
@@ -42,6 +45,10 @@
 
 function fillModal(modal, recipe){
 	modal.find('.modal-title').text(recipe.title);
+	
+	modal.find('.modal-recipe-image')
+		.attr('src', 'resources/images/recipes/' + recipe.image);
+	
 	var ingredients = modal.find('.ingredients');
 	ingredients.empty();
 	$.each(recipe.ingredients, function(index, item){
@@ -63,7 +70,7 @@ $(function(){
 			
 			$.each(data, function(index, item) {
 				var recipeDiv = $('<div />', {
-					class: "col-sm-6 col-md-3 recipe",
+					class: "col-sm-6 col-md-2 recipe",
 				});
 				recipeDiv.append($('<h4 />').text(item.title));
 				var img = $('<img />',{

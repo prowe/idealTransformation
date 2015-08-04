@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Roasted Asparagus",
-		"image": "roasted_asparagus.jpg",
+		"image": "roasted_asparagus.jpeg",
 		"ingredients": [
 			"1 pound asparagus",
 			"2 tsp olive oil",
@@ -16,7 +16,7 @@
 	},
 	{
 		"title": "Caramelized Brussel Sprouts",
-		"image": "brussel_sprouts.jpg",
+		"image": "caramelized_brussel_sprouts.jpg",
 		"ingredients": [
 			"2 cups fresh brussel sprouts",
 			"1 tsp Splenda",
@@ -35,8 +35,21 @@
 		]
 	},
 	{
+		"title": "Cauliflower Rice",
+		"image": "cauliflower_rice.jpg",
+		"ingredients": [
+			"1 head cauliflower"
+		],
+		"instructions": [
+			"using a food processor or blender, chop raw cauliflower until it is the size of rice",
+			"microwave in a covered dish for about 6 minutes",
+			"no need to add water! cauliflower absorbs water like crazy, and adding water will make it gummy",
+			"add the rice to a stir fry"
+		]
+	},
+	{
 		"title": "Cauliflower Mashed Potatoes",
-		"image": "cauliflower.jpg",
+		"image": "cauliflower_mashed_potatoes.jpeg",
 		"ingredients": [
 			"1 head cauliflower",
 			"onion and garlic powder",
@@ -51,21 +64,8 @@
 		]
 	},
 	{
-		"title": "Cauliflower Rice",
-		"image": "cauliflower.jpg",
-		"ingredients": [
-			"1 head cauliflower"
-		],
-		"instructions": [
-			"using a food processor or blender, chop raw cauliflower until it is the size of rice",
-			"microwave in a covered dish for about 6 minutes",
-			"no need to add water! cauliflower absorbs water like crazy, and adding water will make it gummy",
-			"add the rice to a stir fry"
-		]
-	},
-	{
 		"title": "Celery Root and Cauliflower Puree",
-		"image": "cauliflower.jpg",
+		"image": "Celery_Root_Puree.jpeg",
 		"ingredients": [
 			"1 medium celery root, peeled and cut into 1/2 inch cubes",
 			"1 small head or half a large head of cauliflower, cut into small florets",
@@ -92,6 +92,29 @@
 			"Preheat oven to 350F. Line a baking sheet with parchment paper. Wash cauliflower and trim greens from stem side.",
 			"Use a knife to cut around base, removing center core, but leaving the florets intact. Place on prepared pan.",
 			"In a small bowl, whisk together olive oil, curry, and slat until blended. Brush mixture onto cauliflower so that it is evenly distributed."
+		]
+	},
+	{
+		"title": "Cucumber Salsa",
+		"image": "cucumber_salsa.jpg",
+		"ingredients": [
+			"1 1/2 cucumbers, diced",
+			"1/2 cup red pepper, diced",
+			"1/2 cup green pepper, diced",
+			"1/2 cup white onion, diced",
+			"1/2 cup cilantro, chopped",
+			"1/4 tsp crushed red pepper",
+			"1 tsp garlic powder",
+			"1 Tbsp olive oil",
+			"1 tsp white vinegar",
+			"1/2 fresh lemon, squeezed",
+			"salt and pepper to taste",
+			"1 packet Splenda"
+		],
+		"instructions": [
+			"Mix together cucumbers, peppers, onion, cilantro, red pepper, and garlic.",
+			"Mix in remaining ingredients and refrigerate for 1 hour before eating.",
+			"Let marinate overnight for an even tastier dish!"
 		]
 	}
 ]

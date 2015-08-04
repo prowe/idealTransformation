@@ -4,7 +4,7 @@
 <div id="events" class="container">
 	<h2>Events</h2>
 	<div class="col-md-6 col-sm-12">
-		TODO
+		<div style="color: red;">TODO</div>
 	</div>
 	<div class="col-md-6 col-sm-12">
 		<div class="embed-responsive embed-responsive-4by3">
