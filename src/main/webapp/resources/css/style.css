@@ -1,6 +1,42 @@
-
-h2 {
+div#scroll-able {
+	/*height: 400px;*/
+	/*overflow: scroll;*/
 }
+#target_nav {
+	background-color: white;
+}
+.affix, .affix-top {
+	top: 0;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+}
+.active {
+	font-weight: bold;
+}
+.highlight {
+    background-color: #FFFF88;
+}
+
+body {
+	padding-top: 50px;	
+	padding-bottom: 65px;
+}
+
+/* general stuff */
+section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+section H2 {
+	color: green;
+	font-family: Lilly;
+}
+#target_nav {
+	color: green;
+	font-family: Lilly;
+}
+
 
 #about .contact-info {
 	text-align: center;
@@ -16,13 +52,35 @@ h2 {
 	height: 2em;
 }
 
+/* fix modal list */
+.classTypeList LI INPUT {
+	display: inline;	
+}
+.classTypeList LI LABEL {
+	font-weight: normal;
+	margin-left: 15px;
+}
+
 #staff .media-left IMG {
   width: 140px;
 }
 
+.recipe {
+	cursor: pointer;
+	margin-bottom: 15px;
+}
 .recipe img {
 	width: 100%;
-	cursor: pointer;
+	height: 155px;
+}
+.recipe h4 {
+	height: 2em;
+}
+
+#recipeSearch {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: 15px;
 }
 
 #recipeModal .recipe-modal-img-container {
@@ -30,4 +88,10 @@ h2 {
 }
 #recipeModal .recipe-modal-img-container img {
 	max-width: 100%;
+}
+
+#footer .social-icons {
+	margin-top: 10px;
+	margin-bottom: 11px;
+	margin-right: 15px;
 }

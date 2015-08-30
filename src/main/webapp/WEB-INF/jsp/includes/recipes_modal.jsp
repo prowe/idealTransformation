@@ -2,9 +2,12 @@
     pageEncoding="UTF-8"%>
     
 <div id="recipes" class="container">
-	<h2>Recipes</h2>
-	
-		
+   	<div class="row">
+	   	<h2 class="col-md-9">Recipes</h2>
+	    <div class="col-md-3 pull-right">
+	    	<input id="recipeSearch" class="form-control" type="search" placeholder="Search Recipes" />
+	    </div>
+   	</div>
 </div>
 <div class="modal fade" id="recipeModal">
 	<div class="modal-dialog">
@@ -70,15 +73,21 @@ $(function(){
 			
 			$.each(data, function(index, item) {
 				var recipeDiv = $('<div />', {
-					class: "col-sm-6 col-md-2 recipe",
+					class: "col-sm-6 col-md-3 recipe",
 				});
-				recipeDiv.append($('<h4 />').text(item.title));
-				var img = $('<img />',{
-					src: 'resources/images/recipes/' + item.image
-				});
-				img.appendTo(recipeDiv);
+				recipeDiv.attr('data-title-lowercase', item.title.toLowerCase());
+				var thumbnailDiv = $('<div class="thumbnail" />').appendTo(recipeDiv);
 				
-				img.click(function(e){
+				$('<img />',{
+					src: 'resources/images/recipes/' + item.image
+				}).appendTo(thumbnailDiv);
+				
+				$('<div />', {
+					"class": "caption",
+					html: $('<h4 />').text(item.title)
+				}).appendTo(thumbnailDiv);
+				
+				thumbnailDiv.click(function(e){
 					var modal = $('#recipeModal');
 					fillModal(modal, item);
 					modal.modal();
@@ -86,7 +95,23 @@ $(function(){
 				
 				container.append(recipeDiv);
 			});
-			
+		}
+	});
+	
+	$('#recipeSearch').typeWatch({
+		wait: 250,
+		callback: function(term) {
+			var lowercaseTerm = term.toLowerCase();
+			$('.recipe').each(function(){
+				var recipeDiv = $(this);
+				recipeDiv.unhighlight();
+				if(term == '' || $(this).attr('data-title-lowercase').indexOf(term) >= 0){
+					recipeDiv.show();
+					recipeDiv.highlight(term);
+				}else{
+					recipeDiv.hide();
+				}
+			});
 		}
 	});
 })
