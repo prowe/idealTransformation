@@ -58,42 +58,14 @@
 		</div>
 	</nav>
 	
-	<section>
-		<%@ include file="includes/welcome.jsp" %>
-	</section>
-	<section>
-		<%@ include file="includes/about.jsp" %>
-	</section>
-	<section>
-		<%@ include file="includes/instagramFeed.jsp" %>
-	</section>
-	<section>
-		<%@ include file="includes/staff.jsp" %>
-	</section>
-	<section>		
-		<%@ include file="includes/events.jsp" %>
-	</section>
-	<%-- <%@ include file="includes/results.jsp" %> --%>
-	<section>
-		<div id="recipes" class="container"></div>
-	</section>
+	<%@ include file="includes/welcome.jsp" %>
+	<%@ include file="includes/about.jsp" %>
+	<%@ include file="includes/instagramFeed.jsp" %>
+	<%@ include file="includes/staff.jsp" %>
+	<%@ include file="includes/events.jsp" %>
+	<%@ include file="includes/results.jsp" %>
+	<section id="recipes" class="container"></section>
 	
-	<nav id="footer" class="navbar navbar-inverse navbar-fixed-bottom">
-	  <div class="container">
-	  	<div class="navbar-left">
-		  	<p class="navbar-text">Copyright IdealTRANSFORMATION, 8230 Hickman Rd, Ste 400, Clive, IA 50325</p>
-		  	<p class="navbar-text">Designed and built by <a href="email:paul.w.rowe@gmail.com">Paul Rowe</a></p>
-	  	</div>
-	  	
-	  	<div class="navbar-right social-icons">
-			<a href="http://www.facebook.com/idealtransformation?ref=hl" 
-				target="_blank"><img src="resources/images/icons/FB-f-Logo__blue_29.png" /></a>
-			<a href="http://twitter.com/idealDSM" 
-				target="_blank"><img src="resources/images/icons/TwitterLogo_55acee_29.png" /></a>
-			<a href="http://pinterest.com/dsmideal/boards/" 
-				target="_blank"><img src="resources/images/icons/Pinterest_Badge_Red_29.png" /></a>
-		</div>
-	  </div>
-	</nav>
+	<%@ include file="includes/footer.jsp" %>
 </body>
 </html>

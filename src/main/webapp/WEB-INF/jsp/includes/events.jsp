@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-<div class="modal fade" id="contactUsModal">
+<section class="modal fade" id="contactUsModal">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -20,7 +20,7 @@
 			</div> 
 		</div>
 	</div>
-</div>
+</section>
 
 <div id="events" class="container">
 	<h2>Events</h2>

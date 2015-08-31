@@ -65,6 +65,19 @@ section H2 {
   width: 140px;
 }
 
+#results .item P {
+	font-weight: normal;
+}
+#results .item H4 {
+	font-size: 24px;
+}
+.before-container {
+	
+}
+.after-container {
+	text-align: right;
+}
+
 .recipe {
 	cursor: pointer;
 	margin-bottom: 15px;

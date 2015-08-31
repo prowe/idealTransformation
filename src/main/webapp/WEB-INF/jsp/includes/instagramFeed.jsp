@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
-<div id="instagramFeed" class="container">
+<section id="instagramFeed" class="container">
 	<h2>Instagram Feed</h2>
 	<div id="feedContainer"></div>
 
@@ -20,4 +20,4 @@
 			});
 		});
 	</script>
-</div>
+</section>
