@@ -1,43 +1,39 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
-<section id="about" class="container">
+<section id="about" class="">
 	<h2>Contact Us</h2>
 	
 	<div class="col-md-6 col-sm-12 contact-info">
-		<div class="row">
-			<label class="col-md-6">Address</label>
-			<div class="col-md-6">
-				8230 Hickman Rd<br /> 
-				Ste 500<br /> 
-				Clive, IA 50325
-			</div>
+		<div>
+			Ideal TRANSFORMATION<br /> 8230 Hickman Road, Suite 300 <br />
+			Clive, IA 50325
 		</div>
-		<div class="row">
-			<label class="col-md-6">Phone</label>
-			<div class="col-md-6">
-				<a class="phone" href="tel:+15152708446">515.270.THIN(8446)</a>
-			</div>
-		</div>
-		<div class="row">
-			<label class="col-md-6">Fax</label>
-			<div class="col-md-6">888-581-4224 (fax)</div>
-		</div>
-		<div class="row">
-			<label class="col-md-6">Email</label>
-			<div class="col-md-6">
-				<a class="email" href="email:info@idealtransformation.net">info@idealtransformation.net</a>
-			</div>
-		</div>
-		<div class="row">
-			<label class="col-md-6">Hours</label>
-			<ul class="col-md-6 list-unstyled ">
-				<li>9-5 (Mon - Thur)</li>
-				<li>9-1 (Fri)</li>
-				<li><small>Extended Hours available by appointment</small></li>
-			</ul>
-		</div>
-		
+
+		<label>Phone</label>
+		<div>515-270-8446</div>
+
+		<label>Fax</label>
+		<div>888-581-4224</div>
+
+		<label>Email</label> 
+		<a class="email"
+			href="email:info@idealtransformation.net">info@idealtransformation.net</a> 
+
+		<label>Office Hours</label>
+		<dl class="dl-horizontal office-hours">
+			<dt>Monday</dt>
+			<dd>9AM – 5PM</dd>
+			<dt>Tuesday</dt>
+			<dd>9AM – 5PM</dd>
+			<dt>Wednesday</dt>
+			<dd>9AM – 5PM</dd>
+			<dt>Thursday</dt>
+			<dd>9AM – 5PM</dd>
+			<dt>Friday</dt>
+			<dd>7AM – 1PM</dd>
+		</dl>
+
 		<div class="row hidden-md hidden-lg">
 			<label class="col-md-6">Social</label>
 			<div class="col-md-6 social-icons ">
@@ -52,18 +48,18 @@
 			</div>
 		</div>
 		
-		<div class="row">
+		<!-- <div class="row">
 			<label class="col-md-6">Message Us</label>
 			<div class="col-md-6" id="embeddedMessageFormWrapper">
 				
 			</div>
-		</div>
+		</div> -->
 		
 	</div>
 	<div class="col-md-6 col-sm-12 map">
 		<div class="embed-responsive embed-responsive-4by3">
 			<iframe class="embed-responsive-item"
-				src="https://www.google.com/maps/embed/v1/place?key=AIzaSyChtWPYR9_BzD1QlLDHkV5gD-USwt9w3mw&q=8230+Hickman+Rd+Ste+400+Clive+IA+50325">
+				src="https://www.google.com/maps/embed/v1/place?key=AIzaSyChtWPYR9_BzD1QlLDHkV5gD-USwt9w3mw&q=8230+Hickman+Rd+Suite+300+Clive+IA+50325">
 			</iframe>
 		</div>
 	</div>
@@ -71,6 +67,7 @@
 
 <script type="text/javascript">
 $(function(){
+	//currently defunct
 	var wrapper = $('#embeddedMessageFormWrapper');
 	wrapper.load("contactUs.html?embedded=true");
 	wrapper.click(function(e){

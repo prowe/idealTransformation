@@ -2,36 +2,19 @@
 	pageEncoding="UTF-8"%>
 
 
-<section id="instagramFeed" class="container">
-	<h2>Instagram Feed</h2>
-	<div id="feedContainer" class="row"></div>
+<section id="instagramFeed" class="container col-md-3">
+	<p>Are you an Instagram user? Tag your low carb inspirations #idealdsm and we’ll share them here!</p>
 
-	<p>Are you an instragram user? Tag your favorite meals, tips and inspiration with #idealDSM and see your picture show up here.</p>
+	<div id="feedContainer" class=""></div>
 
 	<div id="instagram-thumb-template" style="display: none;">
-		<div class="col-xs-6 col-md-3" >
-			<div class="thumbnail instagram-thumbnail" >
+		<div class="" >
+			<div class=" instagram-thumbnail" >
 				<a href="{{link}}" target="instagram"><img src="{{image}}"  /></a>
 			</div>
 		</div>
 	</div>
 
-	<!-- <script type="text/javascript">
-		$(function() {
-			$('#feedContainer').pongstgrm({
-				accessId : '1960773837',
-				accessToken : '1960773837.0cb5f76.5bdca6e7924442afa77f1124bf6c2ace',
-				show: 'idealDSM',
-				
-			    likes: false,
-			    comments: false,
-			    timestamp: false,
-				pager : false,
-				button: "btn btn-success btn-xs btn-instagram-more"
-			});
-		});
-	</script> -->
-	
 	<script type="text/javascript">
 		//http://instafeedjs.com
 	    var feed = new Instafeed({

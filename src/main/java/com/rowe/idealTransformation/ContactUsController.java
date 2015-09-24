@@ -78,7 +78,8 @@ public class ContactUsController {
 	
 	public enum ClassType {
 		WORKSHOP("Workshop"),
-		CLASS("Class");
+		CLASS("Class"),
+		HEALTH_COACH_CONSULTATION("Health Coach Consultation");
 		
 		private final String label;
 

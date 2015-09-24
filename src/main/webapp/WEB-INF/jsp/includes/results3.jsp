@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt" %>
 
-<section id="results" class="container">
+<section id="results" class="">
 	<h2>Results</h2>
 	
 	<div id="results-carousel">

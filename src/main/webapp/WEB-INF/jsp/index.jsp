@@ -42,30 +42,35 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="#">IdealTRANSFORMATION</a>
+		      <a class="navbar-brand" href="#"><img src="resources/images/logo.png" /></a>
 		    </div>
 		    
 		    <div class="collapse navbar-collapse" id="navbarCollapse">
 			    <ul class="nav navbar-nav" >
-			    	<li><a href="#welcome">Welcome</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#instagramFeed" class="scrollclass">Feed</a></li>
-					<li><a href="#staff" class="scrollclass">Staff</a></li>
+			    	<li><a href="#welcome">Home</a></li>
 					<li><a href="#events" class="scrollclass">Events</a></li>
+					<li><a href="#about" class="scrollclass">Contact Us</a></li>
+					<li><a href="#staff" class="scrollclass">Staff</a></li>
 					<li><a href="#results" class="scrollclass">Results</a></li>
 					<li><a href="#recipes" class="scrollclass">Recipes</a></li>
+			    </ul>
+			    <ul class="nav navbar-nav navbar-right">
+			    	<li><a class="navbar-brand" href="tel:+15152708446">515-270-THIN (8446)</a></li>
 			    </ul>
 			</div>
 		</div>
 	</nav>
 	
-	<%@ include file="includes/welcome.jsp" %>
-	<%@ include file="includes/about.jsp" %>
+	<main class="col-md-9">
+		<img class="building-image" src="resources/images/building.png" />
+		<%@ include file="includes/welcome.jsp" %>
+		<%@ include file="includes/events.jsp" %>
+		<%@ include file="includes/about.jsp" %>
+		<%@ include file="includes/staff.jsp" %>
+		<%@ include file="includes/results3.jsp" %>
+		<section id="recipes" class="container"></section>
+	</main>
 	<%@ include file="includes/instagramFeed.jsp" %>
-	<%@ include file="includes/staff.jsp" %>
-	<%@ include file="includes/events.jsp" %>
-	<%@ include file="includes/results3.jsp" %>
-	<section id="recipes" class="container"></section>
 	
 	<%@ include file="includes/footer.jsp" %>
 </body>

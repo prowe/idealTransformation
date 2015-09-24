@@ -5,7 +5,7 @@
   <div class="container">
   	<div class="navbar-left">
 	  	<p class="navbar-text">Copyright IdealTRANSFORMATION, 
-	  		8230 Hickman Rd, Ste 400, Clive, IA 50325 
+	  		8230 Hickman Rd, Suite 300, Clive, IA 50325 
 	  		Designed and built by <a href="email:paul.w.rowe@gmail.com">Paul Rowe</a>
 	  	</p>
   	</div>

@@ -41,9 +41,21 @@ body {
 section {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	clear: left;
 }
-section H2 {
+H1, H2, H3, H4, H5 {
 	color: #ad262e; /* brand red */
+}
+
+H1 SMALL,
+H2 SMALL,
+H3 SMALL,
+H4 SMALL,
+H5 SMALL {
+	color: #cc9900; /* brand yellow */
+}
+
+section H2 {
 	font-family: Lilly;
 	border-bottom: #ad262e; /* brand red */
 	border-bottom-style: solid;
@@ -65,10 +77,29 @@ section H2 {
 .navbar-brand {
 	color: #ad262e; /* brand red */
 }
+.navbar-brand img {
+	height: 100%;
+}
+.navbar-right .navbar-brand {
+	padding-right: 0;
+}
+
+.building-image {
+	display: block;
+	padding-top: 15px;
+}
 
 .btn-instagram-more {
 	display: none;
 }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active {
+	color: #cc9900;
+	background-color:  #ad262e; /* brand red */
+	border-color: #ad262e; /* brand red */
+	font-weight: bold;
+}
+
 
 #about>DIV {
 	margin-bottom: 15px;
@@ -79,22 +110,26 @@ section H2 {
 	margin-bottom: 0px;
 }
 @media (max-width: 969px) {
-	#about .contact-info .row {
+	#about .contact-info  {
 		margin-bottom: 10px;
 	}
 }
-@media (min-width: 970px) {
-	#about .contact-info LABEL {
-		text-align: right;
-	}
+
+#about .contact-info LABEL {
+	margin-top: 10px;
 }
 #about .contact-info LABEL::after {
 	content: ':';
 }
-
-#about .address {
-	line-height: 100%;
+.office-hours DT {
+	text-align: left;
+	width: 90px;
+	font-weight: normal;
 }
+.office-hours DD {
+	margin-left: 90px;
+}
+
 #about .social-icons {
 	text-align: center;
 }
