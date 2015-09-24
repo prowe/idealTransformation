@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<div id="staff" class="container">
+<section id="staff" class="container">
 	<h2>Meet the Staff</h2>
 	<div class="media">
 		<div class="media-left">
@@ -60,4 +60,4 @@
 				dog Finn, read, cook, bike, and spend time with family!</p>
 		</div>
 	</div>
-</div>
+</section>

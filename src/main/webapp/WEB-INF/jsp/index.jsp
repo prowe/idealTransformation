@@ -49,6 +49,7 @@
 			    <ul class="nav navbar-nav" >
 			    	<li><a href="#welcome">Welcome</a></li>
 					<li><a href="#about">About</a></li>
+					<li><a href="#instagramFeed" class="scrollclass">Feed</a></li>
 					<li><a href="#staff" class="scrollclass">Staff</a></li>
 					<li><a href="#events" class="scrollclass">Events</a></li>
 					<li><a href="#results" class="scrollclass">Results</a></li>
@@ -63,7 +64,7 @@
 	<%@ include file="includes/instagramFeed.jsp" %>
 	<%@ include file="includes/staff.jsp" %>
 	<%@ include file="includes/events.jsp" %>
-	<%@ include file="includes/results.jsp" %>
+	<%@ include file="includes/results3.jsp" %>
 	<section id="recipes" class="container"></section>
 	
 	<%@ include file="includes/footer.jsp" %>

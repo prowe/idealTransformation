@@ -2,9 +2,19 @@ div#scroll-able {
 	/*height: 400px;*/
 	/*overflow: scroll;*/
 }
-#target_nav {
+#target_nav.navbar {
 	background-color: white;
+	border-bottom-color: #ad262e; /* brand red */
+	border-radius: 0px;
 }
+#target_nav .navbar-brand, 
+	.modal-title {
+	color: #ad262e; /* brand red */
+}
+.modal-header {
+	border-bottom-color: #ad262e; /* brand red */
+}
+
 .affix, .affix-top {
 	top: 0;
 	width: 100%;
@@ -23,32 +33,72 @@ body {
 	padding-bottom: 65px;
 }
 
+#classDescriptions {
+	margin-bottom: 15px;
+}
+
 /* general stuff */
 section {
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 section H2 {
-	color: green;
+	color: #ad262e; /* brand red */
 	font-family: Lilly;
+	border-bottom: #ad262e; /* brand red */
+	border-bottom-style: solid;
+	border-bottom-width: thin
 }
+.instagram-thumbnail img {
+	width: 100%;
+}
+.instagram-thumbnail {
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
 #target_nav {
-	color: green;
+	color: #ad262e; /* brand red */
 	font-family: Lilly;
 }
 
+.navbar-brand {
+	color: #ad262e; /* brand red */
+}
 
-#about .contact-info {
-	text-align: center;
+.btn-instagram-more {
+	display: none;
 }
-#about .phone, #about .fax, #about .email {
+
+#about>DIV {
+	margin-bottom: 15px;
+}
+
+#about .contact-info LABEL {
 	display: block;
+	margin-bottom: 0px;
 }
+@media (max-width: 969px) {
+	#about .contact-info .row {
+		margin-bottom: 10px;
+	}
+}
+@media (min-width: 970px) {
+	#about .contact-info LABEL {
+		text-align: right;
+	}
+}
+#about .contact-info LABEL::after {
+	content: ':';
+}
+
 #about .address {
 	line-height: 100%;
-	
 }
-#about .social-icons img {
+#about .social-icons {
+	text-align: center;
+}
+.social-icons img {
 	height: 2em;
 }
 
@@ -65,26 +115,12 @@ section H2 {
   width: 140px;
 }
 
-#results .item P {
-	font-weight: normal;
-}
-#results .item H4 {
-	font-size: 24px;
-}
-.before-container {
-	
-}
-.after-container {
-	text-align: right;
-}
-
 .recipe {
 	cursor: pointer;
 	margin-bottom: 15px;
 }
 .recipe img {
 	width: 100%;
-	height: 155px;
 }
 .recipe h4 {
 	height: 2em;
@@ -108,3 +144,4 @@ section H2 {
 	margin-bottom: 11px;
 	margin-right: 15px;
 }
+

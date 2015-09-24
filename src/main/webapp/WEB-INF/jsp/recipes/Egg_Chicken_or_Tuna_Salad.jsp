@@ -4,7 +4,7 @@
 <div class="row">
 	<div class="col-md-6">
 		<div class="recipe-modal-img-container">
-			<img src="${pageContext.request.contextPath}/recipes/Egg,_Chicken_or_Tuna_Salad.jsp" />
+			<img src="${pageContext.request.contextPath}/recipes/Egg_Chicken_or_Tuna_Salad.jpg" />
 		</div>
 		<h4>Ingredients</h4>
 		<ul class="ingredients">
@@ -20,6 +20,7 @@
 	<div class="col-md-6">
 		<h4>Instructions</h4>
 		<ol class="instructions">
+			<li>Mix everything together</li>
 		</ol>
 	</div>
 </div>

@@ -23,6 +23,7 @@
 	<div class="col-md-6">
 		<h4>Instructions</h4>
 		<ol class="instructions">
+			<li>Mix all ingredients together</li>
 		</ol>
 	</div>
 </div>

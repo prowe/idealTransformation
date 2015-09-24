@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-<section class="modal fade" id="contactUsModal">
+<div class="modal fade" id="contactUsModal">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -20,19 +20,16 @@
 			</div> 
 		</div>
 	</div>
-</section>
+</div>
 
-<div id="events" class="container">
+<section id="events" class="container">
 	<h2>Events</h2>
 	<div id="classDescriptions" class="col-md-6 col-sm-12">
-		<h3>Info Session</h3>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+		<h3>Workshops</h3>
+		<p>Workshops provide an excellent overview of how our weight loss protocol works with your body to shed fat while maintaining lean muscle. Results are predictable and repeatable!</p>
 		
-		<h3>Maintenance Class</h3>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-		
-		<h3>Support Group</h3>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+		<h3>Classes</h3>
+		<p>Anyone is welcome to attend our informational classes. We provide a relaxed setting where we will discuss several topics about weight loss and developing a healthy lifestyle. Open discussion and questions are encouraged!</p>
 		
 		<button 
 			type="button" class="btn btn-primary btn-xs contactUsButton">Contact Us</button>
@@ -40,7 +37,7 @@
 	<div class="col-md-6 col-sm-12">
 		<div class="embed-responsive embed-responsive-4by3">
 			<iframe class="embed-responsive-item"
-				src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=6ci10meqqa5enjfgi5bnqmjb6s%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FChicago">
+				src="https://www.google.com/calendar/embed?title=Ideal%20Tran%20Event%20Calendar&amp;showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=joa8fgdm9b4s06gfq914kn1v4k%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FChicago">
 			</iframe>
 		</div>
 	</div>
@@ -65,4 +62,4 @@
 			});
 		});
 	</script>
-</div>
+</section>

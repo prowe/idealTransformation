@@ -4,7 +4,7 @@
 <div class="row">
 	<div class="col-md-6">
 		<div class="recipe-modal-img-container">
-			<img src="${pageContext.request.contextPath}/recipes/Shepherd's_Pie.jpg" />
+			<img src="${pageContext.request.contextPath}/recipes/Shepherds_Pie.jpg" />
 		</div>
 		<h4>Ingredients</h4>
 		<ul class="ingredients">

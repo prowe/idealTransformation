@@ -1,5 +1,6 @@
 package com.rowe.idealTransformation;
 
+import java.io.IOException;
 import java.util.Map;
 
 import javax.validation.Valid;
@@ -15,6 +16,11 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.google.appengine.api.mail.MailService;
+import com.google.appengine.api.mail.MailService.Message;
+import com.google.appengine.api.mail.MailServiceFactory;
 
 @Controller
 @RequestMapping("/contactUs.*")
@@ -22,26 +28,57 @@ public class ContactUsController {
 	private static final Logger logger = LoggerFactory.getLogger(ContactUsController.class);
 
 	@RequestMapping(method=RequestMethod.GET)
-	public void get(Map<String, Object> modelMap){
+	public String get(@RequestParam(value="embedded", required=false, defaultValue="false") boolean embedded,
+		Map<String, Object> modelMap){
 		modelMap.put("command", new ContactUsCommand());
+		return getViewName(embedded);
 	}
 	
 	@RequestMapping(method = RequestMethod.POST)
 	public String submit(
+		@RequestParam(value="embedded", required=false, defaultValue="false") boolean embedded,
 		@Valid @ModelAttribute("command") ContactUsCommand command,
-		BindingResult bindingResult) {
+		BindingResult bindingResult) throws IOException {
 		if(bindingResult.hasErrors()){
-			return "contactUs";
+			return getViewName(embedded);
 		}
 		logger.info("Mailing {}", command);
-		
+		sendMail(command);
 		return "contactUsSuccess";
+	}
+
+	private String getViewName(boolean embedded) {
+		return embedded ? "contactUs-embedded" : "contactUs";
+	}
+	
+	private void sendMail(ContactUsCommand command) throws IOException{
+		MailService mailService = MailServiceFactory.getMailService();
+		
+		Message message = new Message();
+		
+		message.setSender("no-reply@idealtransformation-1006.appspot.com");
+		message.setSubject("Website Message");
+		
+		if(command.getEmail() != null){
+			message.setReplyTo(command.getEmail());
+		}
+		
+		StringBuilder builder = new StringBuilder();
+		builder.append("From: " + command.getName() + "\n");
+		builder.append("Email: " + command.getEmail() + "\n");
+		builder.append("Phone: " + command.getPhone() + "\n");
+		builder.append("Attending: " + command.getAttendCount() + "\n");
+		builder.append("Class Type: " + (command.getClassType() != null ? command.getClassType().getLabel() : null) + "\n");
+		builder.append("Event Date: " + command.getEventDate() + "\n");
+		builder.append("Comments: " + command.getComments() + "\n");
+		message.setTextBody(builder.toString());
+		
+		mailService.sendToAdmins(message);
 	}
 	
 	public enum ClassType {
-		INFO("Info Session"),
-		MAINTENANCE("Maintenance Class"),
-		SUPPORT("Support Group");
+		WORKSHOP("Workshop"),
+		CLASS("Class");
 		
 		private final String label;
 
@@ -61,6 +98,7 @@ public class ContactUsController {
 		private ClassType classType;
 		private LocalDate eventDate;
 		private Integer attendCount;
+		private String comments;
 		
 		@NotBlank
 		public String getName() {
@@ -77,7 +115,6 @@ public class ContactUsController {
 		public void setEmail(String email) {
 			this.email = email;
 		}
-		@NotBlank
 		public String getPhone() {
 			return phone;
 		}
@@ -88,6 +125,7 @@ public class ContactUsController {
 		public ClassType getClassType() {
 			return classType;
 		}
+		
 		public void setClassType(ClassType classType) {
 			this.classType = classType;
 		}
@@ -104,7 +142,12 @@ public class ContactUsController {
 		public void setAttendCount(Integer attendCount) {
 			this.attendCount = attendCount;
 		}
-		
+		public String getComments() {
+			return comments;
+		}
+		public void setComments(String comments) {
+			this.comments = comments;
+		}
 		
 	}
 }
