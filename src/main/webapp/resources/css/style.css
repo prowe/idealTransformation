@@ -33,6 +33,14 @@ body {
 	padding-bottom: 65px;
 }
 
+A {
+	color:  #ad262e;
+}
+
+aside {
+	padding-top: 15px;
+}
+
 #classDescriptions {
 	margin-bottom: 15px;
 }
@@ -74,6 +82,11 @@ section H2 {
 	font-family: Lilly;
 }
 
+#main-nav {
+	border-bottom-color: #ad262e; /* brand red */
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+}
 .navbar-brand {
 	color: #ad262e; /* brand red */
 }

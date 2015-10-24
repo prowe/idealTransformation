@@ -1,13 +1,10 @@
 package com.rowe.idealTransformation;
 
-import java.util.Properties;
-
-import javax.mail.Session;
+import java.io.IOException;
+import java.security.GeneralSecurityException;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.mail.MailSender;
-import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
@@ -51,6 +48,7 @@ public class Application extends WebMvcConfigurationSupport {
 	public RecipeController recipeController(){
 		return new RecipeController();
 	}
+	
 
 	@Override
 	protected LocalValidatorFactoryBean getValidator() {

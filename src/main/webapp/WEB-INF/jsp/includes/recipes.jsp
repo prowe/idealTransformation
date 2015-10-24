@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-<section id="recipes" class="container">
+<section id="recipes" class="" >
 	<h2>Recipes</h2>
 	
 	<script type="text/javascript">

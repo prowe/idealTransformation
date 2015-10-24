@@ -2,14 +2,15 @@
 	pageEncoding="UTF-8"%>
 
 
-<section id="instagramFeed" class="container col-md-3">
+<section id="instagramFeed" class="">
+	<h4>INSTAGRAM</h4>
 	<p>Are you an Instagram user? Tag your low carb inspirations #idealdsm and we’ll share them here!</p>
 
-	<div id="feedContainer" class=""></div>
+	<div id="feedContainer" class="row" ></div>
 
 	<div id="instagram-thumb-template" style="display: none;">
-		<div class="" >
-			<div class=" instagram-thumbnail" >
+		<div class="col-xs-6 col-md-12" >
+			<div class="instagram-thumbnail" >
 				<a href="{{link}}" target="instagram"><img src="{{image}}"  /></a>
 			</div>
 		</div>

@@ -1,0 +1,128 @@
+@CHARSET "UTF-8";
+
+/* force a whole page margin */
+HEADER, MAIN, FOOTER {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	max-width: 850px;
+}
+
+#phone-number {
+	height: 80px;
+	font-size: 30px;
+	text-align: right;
+	padding-right: 30px;
+	line-height: 80px;
+}
+header {
+}
+#banner H1{
+	font-size: 30px;
+}
+#brand-logo-container IMG {
+	max-width: 100%;
+}
+
+#main-nav {
+	border-bottom-color: #ad262e; /* brand red */
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+}
+
+.navbar-toggle {
+	border-color: #964706; /* brand red */
+}
+.navbar-toggle .icon-bar {
+	background-color: #964706; /* brand red */
+}
+
+NAV {
+	border-bottom-style: solid;
+	border-bottom-width: thin;		
+	border-bottom-color: #964706; /* brand red */
+	margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+	/*drop down on hover */
+	li.dropdown:hover ul.dropdown-menu {
+	    display: block !important;    
+	}
+	nav {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.navbar-nav {
+		width: 100%;
+	}
+	.nav > LI {
+		width: 20%;
+		text-align: center;
+	}
+	.nav .dropdown-menu {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+A, H2, H3, H4 {
+	color: #964706; /* brand red */
+}
+.social-icon IMG {
+	height: 2em;
+}
+
+MAIN {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+FOOTER {
+	margin-top: 15px;
+	padding-top: 15px; 
+	padding-bottom: 15px;
+	border-top-style: solid;
+	border-top-width: thin;		
+	border-top-color: #964706; /* brand red */
+}
+
+@media (min-width: 768px) {
+	.footer-aside {
+		text-align: right;
+	}
+}
+
+.btn-primary, 
+.btn-primary.active.focus, 
+.btn-primary.active:focus, 
+.btn-primary.active:hover, 
+.btn-primary:active.focus, 
+.btn-primary:active:focus, 
+.btn-primary:active:hover,
+.btn-primary:hover
+{
+	background-color: #964706;
+	border-color: #964706;	
+}
+
+.btn-learn-more {
+	float: right;
+}
+
+
+.flip-vertical {
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: flipv; /*IE*/
+}
+#instagramFeed {
+	margin-top: 15px;
+}
+.instagram-thumbnail {
+	margin-bottom: 15px;
+}
+.instagram-thumbnail IMG {
+	width: 100%;
+}
+
