@@ -5,8 +5,6 @@ import java.util.Map;
 
 import javax.validation.Valid;
 
-import org.hibernate.validator.constraints.Email;
-import org.hibernate.validator.constraints.NotBlank;
 import org.joda.time.LocalDate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -38,13 +36,19 @@ public class ContactUsController {
 	public String submit(
 		@RequestParam(value="embedded", required=false, defaultValue="false") boolean embedded,
 		@Valid @ModelAttribute("command") ContactUsCommand command,
-		BindingResult bindingResult) throws IOException {
+		BindingResult bindingResult, Map<String, Object> modelMap) throws IOException {
 		if(bindingResult.hasErrors()){
 			return getViewName(embedded);
 		}
 		logger.info("Mailing {}", command);
-		sendMail(command);
-		return "contactUsSuccess";
+		try {
+			sendMail(command);
+			modelMap.put("successMessage", "Message sent!");
+		}catch(Exception e){
+			logger.error("Error sending mail", e);
+			modelMap.put("errorMessage", "Submit failed! Please call (515) 270-8446");
+		}
+		return "contactUs";
 	}
 
 	private String getViewName(boolean embedded) {
@@ -67,9 +71,9 @@ public class ContactUsController {
 		builder.append("From: " + command.getName() + "\n");
 		builder.append("Email: " + command.getEmail() + "\n");
 		builder.append("Phone: " + command.getPhone() + "\n");
-		builder.append("Attending: " + command.getAttendCount() + "\n");
-		builder.append("Class Type: " + (command.getClassType() != null ? command.getClassType().getLabel() : null) + "\n");
-		builder.append("Event Date: " + command.getEventDate() + "\n");
+//		builder.append("Attending: " + command.getAttendCount() + "\n");
+//		builder.append("Class Type: " + (command.getClassType() != null ? command.getClassType().getLabel() : null) + "\n");
+//		builder.append("Event Date: " + command.getEventDate() + "\n");
 		builder.append("Comments: " + command.getComments() + "\n");
 		message.setTextBody(builder.toString());
 		
@@ -101,15 +105,15 @@ public class ContactUsController {
 		private Integer attendCount;
 		private String comments;
 		
-		@NotBlank
+		//@NotBlank
 		public String getName() {
 			return name;
 		}
 		public void setName(String name) {
 			this.name = name;
 		}
-		@NotBlank
-		@Email
+		//@NotBlank
+		//@Email
 		public String getEmail() {
 			return email;
 		}

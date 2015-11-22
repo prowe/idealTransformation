@@ -30,8 +30,8 @@
 		<div class="col-md-8">
 			<section class="">
 				<h4>ABOUT</h4>
-				<img src="resources/images/carousel/IMG_8738.JPG" class="flip-vertical" style="width: 100%;"/>
-				<div>Diana, Adair, Kelsey, and Ali</div>
+				<img src="resources/images/pictures/dedepic.png"  style="width: 100%;"/>
+<!-- 				<div>Diana, Adair, Kelsey, and Ali</div> -->
 			</section>
 			<section style="text-align: center;">
 				<span style="padding-right: 15px;">
@@ -44,104 +44,31 @@
 				</span>
 			</section>
 			<section>
-	
-				<p>Since 2011, Ideal Transformation has been creating life-changing transformations, one unique experience at a time. With a little help and guidance, you too can identify and implement a sustainable health, wellness, or weight loss program that leads to success and long-term results.</p> 
-				<p>Whether you are looking for an effective weight loss solution, help with menu planning, or inspiration for healthful home cooking, you will find our staff to be knowledgeable and passionate about you achieving your best health.</p>
-				<p>We carry the highest quality protein supplements and kitchen aids available, a menu of coaching services, and affordable rates, and a warm welcoming environment that will set the stage for your new adventure.</p>
-				<p>Parking is easy and we are available to serve you during and after business hours. We even offer frequent buyer programs so you can benefit with great savings while supporting a local business.  We’re looking forward to meeting you and becoming your personal guide on your wellness journey!</p>
+				<p>Since we opened our doors in 2011, Ideal Transformation has been creating life-changing transformations, one unique experience at a time. We are so grateful to be part of Des Moines’ business and health community.</p> 
+				<p>Whether you are looking for an effective weight loss solution, help with menu planning, or inspiration for healthful home cooking, you will find our staff to be knowledgeable and passionate about YOU achieving your best health!  With a little help and guidance, you too can identify and implement a sustainable health, wellness, or weight loss program that leads to success and long-term results.</p>
+				<p>As an authorized center for Ideal Protein, we offer one of the most effective weight loss programs available.  We carry products to support healthful living including teas, water enhancers, kitchen tools and cookbooks.  You will find a full menu of coaching services at affordable rates, and a warm welcoming environment that will set the stage for your personal transformation.</p>
+				<p>Parking is easy and we are available to serve you during and beyond regular business hours. We even offer frequent buyer programs so you can benefit with great savings while supporting a local business. We’re looking forward to meeting you and becoming your personal guide on your wellness journey!</p>
 				
-				<img src="resources/images/carousel/IMG_8738.JPG" class="flip-vertical" style="width: 100%;"/>
+				
+				<img src="resources/images/pictures/web_family_pic.jpg"  style="width: 100%;"/>
 				<h4>ADAIR</h4>
-				<p>It’s not often you’ll find Adair without her gym bag along.  Adair has always been a good food girl and she has a passion for physical fitness and weight lifting that complement her passion for chocolate and an occasional reckless meal! Adair is a fantastic example and coach. She is smart, fun and eager to work with clients who have committe4d to a healthy lifestyle. Adair is a certified health coach and recently earned her Personal Training certification through XXXX.  Adair is our marketing queen and loves updating our site with new success stories!</p>
-	
-				<img src="resources/images/carousel/IMG_8738.JPG" class="flip-vertical" style="width: 100%;"/>
+				<p>It’s not often you’ll find Adair anywhere without her gym bag in the car. Adair has always been a “good food” girl and she has a passion for physical fitness and weight lifting that complement her passion for chocolate and an occasional reckless meal! Adair is a fantastic example and coach. She is smart, fun and eager to work with clients who have committed to a healthy lifestyle. Adair is a certified health coach and recently earned her Personal Training certification through NASM. In the office, Adair is our marketing queen and loves updating our website with new success stories!</p>
+					
+				<img src="resources/images/pictures/kelsnicpic.jpg" style="width: 100%;"/>
 				<h4>KELSEY</h4>
-				<p>Kelsey is the kind of girl who needs only a small excuse to throw a well orchestrated party! Kelsey loves to make people happy and celebrate their successes. This makes her the perfect coach for our weight loss clients. She will set up a menu plan based on your preferences and busy schedule, and anticipate your successful follow-up visit! Kelsey and her husband spend time with their _____, Finn, while putting in TLC time with their little Beaverdale castle.  Kelsey keeps our weight loss program up to date and works with the coaching staff to keep them on top of the latest best practices.</p>
+				<p>Kelsey is the kind of girl who only needs a small excuse to throw a well orchestrated party! Kelsey loves to make people happy and celebrate their successes. This makes her the perfect coach for our weight loss clients. She will set up a menu plan based on your preferences and busy schedule, offer solutions for your upcoming challenges, and anticipate your successful follow-up visit! Kelsey keeps our weight loss programs fresh and up-to-date and works with the coaching staff to keep them on top of the latest best practices. Outside of work, Kelsey and her husband stay busy updating their sweet home in Beaverdale, and spending time with their redbone coonhound, Finn.</p>
+				
+				<img src="resources/images/pictures/alirichpic.jpg" style="width: 100%;"/>
+				<h4>ALI</h4>
+				<p>You’ll always get a smile and an encouraging word from Ali. Ali is committed to her goals and achievements, but she has fun all the way.  Along with her full time job in counseling and social work for Broadlawns Medical Center, Ali is a part-time coach at Ideal Transformation.  With a weight loss success story of her own, she inspires and provides a caring, upbeat environment for her clients.  Outside of work, Ali is a dog lover and enjoys working with local shelters as a volunteer.  Her and her husband, Rich, reside in Ankeny with their two boxer mixes, Winston and Sully.</p>
+				
+				<img src="resources/images/pictures/marypatpic.png" style="width: 100%;"/>
+				<h4>MARY</h4>
+				<p>We are so fortunate to have Mary as our Medical Director.  Mary is exactly everything you would expect a good nurse to be.  She is soft spoken and sweet… and confident and strong!  Mary studied at Drake University and received her RN status with honors from Methodist School of Nursing in Des Moines.  Graduating second in her class, she was recognized for her scholastic achievements and awarded a scholarship for Critical Care Nursing.  Mary worked in Pediatric Critical Care at Methodist Hospital, and later served as Director of Nursing at Calvin Community.  Following her career at Calvin, she went into hospice nursing until she retired.  Mary maintains her certifications and works as a grief counselor at Deerfield Retirement Community.  Her and her husband, Pat, live on a farmstead outside of Des Moines and divide their time between their children, six grandchildren, volunteering and traveling.  When Mary has a moment of her own, she snuggles up with a good book!</p>
 			</section>
 		</div>
 		
-		<aside class="col-md-4">
-			<section class="">
-				<h4>NEWS</h4>
-				<p>Stay up-to-date on our latest products, special promotions, and in-store sales.</p>
-				
-				<form>
-					<div class='form-group ' >
-						<input path="email" class="form-control" type="email" placeholder="Email"/>
-					</div>
-					<div class="form-group clearfix">
-						<button id="embeddedContactSaveButton" type="button" class="btn btn-primary btn-sm pull-right">Submit</button>
-					</div>
-				</form>
-			</section>
-
-			<%@ include file="includes/instagramFeed.jsp" %>
-		</aside>
-	
-	<%--
-		<section id="staff" class="col-md-12">
-			<h2>Our Staff</h2>
-			<div class="staff-section clearfix">
-				<img class="headshot" src="resources/images/diana.jpg" alt="Diana Brown" />
-				<h3>Diana Brown <small>Owner and Certified Health Coach</small></h3>
-				<p>Diana is a graduate of the University of Sioux Falls in South
-				Dakota, holding a degree in Business Administration. Prior to starting
-				Ideal Transformation, Diana served in a number of professional
-				capacities including financial services, human resources, training,
-				sales, and recruiting. In 2012, she completed her Health Coach
-				certification through the Institute of Integrative Nutrition and owns
-				and operates Ideal Transformation in Clive,Iowa.</p>
-				<p>Diana is a native Iowan (Spencer), is married and has two grown
-				daughters and one son-in-law. She enjoys interior decorating, cooking,
-				reading, biking, camping and traveling.</p>
-			</div>
-			
-			<div class="staff-section clearfix">
-				<img class="headshot" src="resources/images/adair.png" alt="Adair Brown" />
-				<h3>Adair Brown <small>Assistant Manager  and Certified Health Coach</small></h3>
-				<p>Adair completed her Bachelor of Arts Degree in Environmental
-				Studies at the University of Montana in Missoula. While earning a
-				specialized degree in Sustainable Food and Agriculture, Adair spent
-				many hours working on small organic farms. Adair moved back to the
-				Midwest in 2012 to pursue health coaching and received her Health
-				Coach certification from the Institute of Integrative Nutrition. Adair
-				is passionate about helping people reach a higher quality of life
-				through health and fitness.</p>
-				<p>Adair loves to cook and experiment with new foods and recipes.
-				Outside of food and nutrition, her other loves are fitness, being
-				outdoors, her Labradoodle mix, Koda Bear, chocolate, and coffee!</p>
-			</div>
-			
-			<div class="staff-section clearfix">
-				<img class="headshot" src="resources/images/kelsey.png" alt="Kelsey Chaves" />
-				<h3>Kelsey Chaves <small>Business Solutions Specialist and Coach</small></h3>
-				<p>Kelsey graduated from the University of Iowa with a Major in
-				Communication Studies and Business Administration. After graduating,
-				Kelsey and her family completed a 500 mile hike across Northern Spain
-				inspiring a new found appreciation for life balance, health, and
-				fitness. Kelsey strives to help her clients find this same
-				appreciation in their lives and supports their efforts to reach their
-				goals! As an added benefit, Kelsey is speaks Spanish as a second
-				language and welcomes the opportunity to work with our Spanish
-				speaking clients!</p>
-				<p>Kelsey loves to travel, spend time with her husband and their
-					dog Finn, read, cook, bike, and spend time with family!</p>
-			</div>
-		</section>
-		
-		<section id="office">
-			<h2>Our Office</h2>
-			<p>Our office is centrally located in the Des Moines metro area on
-				the corner of 82nd & Hickman Road. At Ideal Transformation, we are
-				focused on weight loss results and ongoing health maintenance. We
-				have created a comfortable atmosphere to work with clients on an
-				individual basis to tailor a program to their unique situation. Our
-				staff is knowledgeable and passionate about your success! Stop by in
-				to meet us or contact us to schedule an appointment.</p>
-		</section>
-		<%@ include file="includes/events.jsp" %>
-		--%>
-		
+		<%@ include file="includes/_aside.jsp" %>
 	</main>
 	<%@ include file="includes/footer.jsp" %>
 </body>

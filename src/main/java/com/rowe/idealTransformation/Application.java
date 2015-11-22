@@ -5,6 +5,8 @@ import java.security.GeneralSecurityException;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.validation.Errors;
+import org.springframework.validation.Validator;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
@@ -48,11 +50,14 @@ public class Application extends WebMvcConfigurationSupport {
 	public RecipeController recipeController(){
 		return new RecipeController();
 	}
-	
+	@Bean
+	public TumblrController tumblrController(){
+		return new TumblrController();
+	}
 
 	@Override
-	protected LocalValidatorFactoryBean getValidator() {
-		return new LocalValidatorFactoryBean();
+	protected Validator getValidator() {
+		return new ShimValidator();
 	}
 	
 }

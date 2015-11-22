@@ -10,8 +10,18 @@
 		<appengine.app.version>1</appengine.app.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-
+	<repositories>
+		<repository>
+			<id>jboss-snapshots</id>
+			<url>https://repository.jboss.org/nexus/content/repositories/public/</url>
+		</repository>
+	</repositories>
 	<dependencies>
+		<dependency>
+			<groupId>com.tumblr</groupId>
+			<artifactId>jumblr</artifactId>
+			<version>0.0.11</version>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
@@ -43,9 +53,9 @@
 			<version>4.1.7.RELEASE</version>
 		</dependency>
 		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-validator</artifactId>
-			<version>5.2.1.Final</version>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.1.0.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>joda-time</groupId>

@@ -23,7 +23,7 @@ import com.google.api.services.calendar.CalendarScopes;
 import com.google.api.services.calendar.model.Event;
 import com.google.api.services.calendar.model.Events;
 
-@Controller
+//@Controller
 public class EventService {
     private static final String CALENDAR_ID = "6ci10meqqa5enjfgi5bnqmjb6s@group.calendar.google.com";
     
@@ -43,7 +43,7 @@ public class EventService {
 			.setTransport(httpTransport)
 		    .setJsonFactory(jsonFactory)
 		    .setServiceAccountId(emailAddress )
-		    .setServiceAccountPrivateKey(serviceAccountPrivateKey)
+		    //.setServiceAccountPrivateKey(serviceAccountPrivateKey)
 		    .setServiceAccountScopes(Arrays.asList(CalendarScopes.CALENDAR_READONLY))
 		    .build();
 		

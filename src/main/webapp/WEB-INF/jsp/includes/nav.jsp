@@ -13,46 +13,23 @@
    	</div>
     <div class="collapse navbar-collapse" id="main-nav">
 		<ul class="nav navbar-nav">
-			<li class="dropdown"><a href="#" class="dropdown-toggle"
-				data-toggle="dropdown" role="button" aria-haspopup="true"
-				aria-expanded="false">About Us</a>
-				<ul class="dropdown-menu">
-					<li><a href="about.html#staff">Our Staff</a></li>
-					<li><a href="about.html#office">Our Office</a></li>
-					<li><a href="about.html#events">Events</a></li>
-					<li><a href="about.html#contact">Contact us</a></li> 
-				</ul>
-			</li>
-			<li class="dropdown"><a href="#" class="dropdown-toggle"
-				data-toggle="dropdown" role="button" aria-haspopup="true"
-				aria-expanded="false">Services</a>
-				<ul class="dropdown-menu">
-					<li><a href="services.html#weightLoss">Weight Loss</a></li>
-					<li><a href="services.html#coaching">Health Coaching</a></li>
-					<li><a href="services.html#group">Group Classes</a></li>
-					<li><a href="services.html#events">Special Events</a></li>
-				</ul>
-			</li>
-			<li class="dropdown"><a href="#" class="dropdown-toggle"
-				data-toggle="dropdown" role="button" aria-haspopup="true"
-				aria-expanded="false">Results</a>
-				<ul class="dropdown-menu">	
-				   <li><a href="#">Client Stories</a>
-				   <li><a href="#">Client of the Month</a>
-				   <li><a href="#">Photo Gallery</a>
-				</li>
-			</ul>
-			<li class="dropdown"><a href="#" class="dropdown-toggle"
-				data-toggle="dropdown" role="button" aria-haspopup="true"
-				aria-expanded="false">Products</a>
-				<ul class="dropdown-menu">
-				   <li><a href="#">supplements</a></li>
-				   <li><a href="#">Ideal Protein</a></li>
-				   <li><a href="#">kitchen tools</a></li>
-				</ul>
-			</li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li class="double-menu"><a href="services.html" >Products &amp; Services</a></li>
 			<li><a href="recipes.html">Recipes</a></li>
+			<li><a href="contactUs.html">Contact</a></li>
 		</ul>
 	</div>
 </nav>
+<script type="text/javascript">
+$(function(){
+	var path = window.location.pathname;
+	$('#main-nav .nav LI A').filter(function(i, e){ 
+		return path == e.pathname;
+	}).closest('LI')
+	.addClass('active')
+});
+</script>
 
